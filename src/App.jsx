@@ -11,7 +11,6 @@ import WriteMessage from "./components/WriteMessage/WriteMessage";
 
 
 const App = () => {
-	
 	return (<>
 	
 	<SayHello name='Patri' />
@@ -22,7 +21,6 @@ const App = () => {
 	<FahrenheitToCelsius grados = {82.4}/>
 	<TotalPrice precio = {2}/>
 	<WriteMessage name= 'Lucia' material = 'madera' size= 'M' note='Paco' />
-
 
 	</>)
 };
